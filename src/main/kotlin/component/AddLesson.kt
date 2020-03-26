@@ -1,23 +1,21 @@
 package component
 
 import data.Lesson
-import data.lessonsList
-import kotlinx.html.InputType
-import react.RBuilder
-import react.RProps
-import react.child
+import kotlinx.html.js.onClickFunction
+import org.w3c.dom.events.Event
+import react.*
 import react.dom.*
-import react.functionalComponent
 
 interface lessonProps :RProps{
     var lessons : Array<Lesson>
 }
-fun RBuilder.fAddLesson (listLessons :Array<Lesson>, add: Unit) =
-    child(functionalComponent<lessonProps> {props ->
-            button{
-                +"ADD LESSON"
-                add
-            }
+
+fun RBuilder.fAddLesson(listLessons: Array<Lesson>, click : (Event) -> Unit) =
+    child(functionalComponent<lessonProps> {
+        button {
+            +"ADD LESSON"
+            attrs.onClickFunction = click
+        }
     }){
-        attrs.lessons= listLessons
+        attrs.lessons=listLessons
     }

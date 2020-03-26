@@ -1,13 +1,8 @@
-# lab_6
+# lab_3
 
-1. Перенес lessons из props в state 
-
-![kek](https://sun9-22.userapi.com/c857024/v857024656/ccb10/hI2e8_Zr5II.jpg)
-
-1. Добавил компонент ADD LESSON. 
-
-![kek1](https://sun9-49.userapi.com/c857024/v857024656/ccb19/UH3FgfYgWuc.jpg)
-
-3. Нажал на кнопку ADD LESSON, добавился очередной урок. 
-
-![kek2](https://sun9-29.userapi.com/c857024/v857024656/ccb21/0byhaBugM8A.jpg)
+1. Написал функцию для создания радиокнопок без повторения кода по аналогии с видеоуроком.
+    ![тут должен быть код](https://sun9-38.userapi.com/c858520/v858520925/10aa4e/Itc8qMVl5nc.jpg)
+2. В main передаем в эту функцию три цвета.
+    ![тут должен быть еще один код](https://sun9-25.userapi.com/c858520/v858520925/10aa73/TJnwEk7Gqho.jpg)
+3. Работу программы можно увидеть на следующем изображении.
+   ![работа программы](https://sun9-69.userapi.com/c858520/v858520925/10aa7c/ARGcjWF3Sbs.jpg)

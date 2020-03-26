@@ -49,7 +49,7 @@ class App : RComponent<AppProps, AppState>() {
     fun onClick(indexLesson: Int, indexStudent: Int) =
         { _: Event ->
             setState {
-                presents[indexLesson][indexStudent] =
+                  presents[indexLesson][indexStudent] =
                     !presents[indexLesson][indexStudent]
             }
         }
@@ -67,11 +67,13 @@ class App : RComponent<AppProps, AppState>() {
                 onClick(indexLesson, indexStudent)
             }
         }
-
-    fun RBuilder.add ()=
+    fun add(): (Event) -> Unit = {
         setState {
-             state.lessons += Lesson("KEK")
-        }
+            lessons += Lesson("another_Lesson")
+            presents += arrayOf(Array(props.students.size){false})
+      }
+}
+
 }
 fun RBuilder.app(
     students: Array<Student>
