@@ -6,8 +6,8 @@
 
 2. Добавил компонент ADD LESSON. 
 
-![kek1](https://sun9-49.userapi.com/c857024/v857024656/ccb19/UH3FgfYgWuc.jpg)
+![kek1](https://sun9-21.userapi.com/c206520/v206520689/c1229/D302IFglYGk.jpg)
 
-3. Нажал на кнопку ADD LESSON, добавился очередной урок. 
+3. Нажал на кнопку ADD LESSON, добавился УРОК 1. 
 
-![kek2](https://sun9-29.userapi.com/c857024/v857024656/ccb21/0byhaBugM8A.jpg)
+![kek2](https://sun9-24.userapi.com/c206520/v206520689/c1230/CTni8EdeWYc.jpg)
