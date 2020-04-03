@@ -24,7 +24,7 @@ class App : RComponent<AppProps, AppState>() {
 
     override fun RBuilder.render() {
         h1 { +"App" }
-        faddLesson(add1())
+        fAddLesson(add())
         lessonListFull(
             state.lessons,
             props.students,
@@ -68,17 +68,12 @@ class App : RComponent<AppProps, AppState>() {
             }
         }
 
-    fun add1():(String) -> (Event) -> Unit = {
-        add(it)
-    }
-
-    fun add(str: String): (Event) -> Unit = {
-        setState {
+    fun add():(String) -> Unit = { str->
+            setState {
             lessons += Lesson(str)
             presents += arrayOf(Array(props.students.size){false})
-      }
-}
-
+            }
+    }
 }
 fun RBuilder.app(
     students: Array<Student>
