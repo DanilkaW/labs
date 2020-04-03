@@ -6,7 +6,7 @@
 
 1. Перенес lessons из props в state 
 
-    ![kek](https://sun9-22.userapi.com/c857024/v857024656/ccb10/hI2e8_Zr5II.jpg)
+    ![kek](https://sun9-37.userapi.com/c855432/v855432939/210e99/UELenYN1xUI.jpg)
 
 2. Добавил компонент ADD LESSON. 
 
