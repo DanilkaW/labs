@@ -4,7 +4,6 @@ import kotlinx.html.InputType
 import kotlinx.html.id
 import kotlinx.html.js.*
 import org.w3c.dom.HTMLInputElement
-import org.w3c.dom.events.Event
 import react.*
 import react.dom.*
 import kotlin.browser.document
