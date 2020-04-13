@@ -5,16 +5,12 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
-def kotlinx_html_version = "0.6.12"
-
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-js"
-    implementation "org.jetbrains.kotlinx:kotlinx-html-js:${kotlinx_html_version}"
     testImplementation "org.jetbrains.kotlin:kotlin-test-js"
 }
 
