@@ -1,3 +1,9 @@
-# lab_1
+# lab_2
 
-![фото](https://sun9-36.userapi.com/c855136/v855136523/21ff7c/C6Jma3OpCqU.jpg)
+1. Программа после загрузки.
+
+![фото](https://sun9-47.userapi.com/c857520/v857520399/190f22/dageCWDAeT0.jpg)
+
+2. Выполнение программы.
+
+![фото2](https://sun9-71.userapi.com/c857520/v857520399/190f2c/x9k0N-O-0kk.jpg)
