@@ -1,11 +1,34 @@
-# Labs_OOP
+lab_8 Компоненты высокого уровня
 
-## My work for the university is stored here.
+### Задание : доработайте приложение из видеоуроков. Разработайте компоненты, отвечающий за редактирование названия занятия и имени и фамилии студента. Разработайте компонент, отвечающий за редактирование списка элементов (с возможностью добавить или удалить элемент). В качестве аргументов этому компоненту передаются компоненты для отображения и для редактирования элемента списка. Добавьте в приложение страницы для редактирования списка студентов и списка занятий. 
 
-- [lab1](https://github.com/almat3010/labs/tree/lab1)
-- [lab2](https://github.com/almat3010/labs/tree/lab2)
-- [lab3](https://github.com/almat3010/labs/tree/lab3)
-- [lab4](https://github.com/almat3010/labs/tree/lab4)
-- [lab5](https://github.com/almat3010/labs/tree/lab5)
-- [lab6](https://github.com/almat3010/labs/tree/lab6)
-- [lab7](https://github.com/almat3010/labs/tree/lab7)
+
+## Ход работы 
+
+1. Компонент для редактирования списка студентов
+
+    ![kek](https://sun9-19.userapi.com/c857636/v857636935/1d15fb/cjM0XMnu6Fs.jpg)
+
+2. Компонент для редактирования списка занятий 
+
+    ![kek1](https://sun9-41.userapi.com/c857636/v857636935/1d1602/J3PFOIwEENA.jpg)
+
+3. Компонент для редактирования списка элементов 
+   
+   ![kek2](https://sun9-6.userapi.com/c857636/v857636935/1d1615/qgDJ4sF9zxY.jpg)
+
+4. Выполнение программы видно на следующих скриншотах.
+    
+    - Добавляем студента
+
+    ![kek3](https://sun9-16.userapi.com/c857636/v857636935/1d1643/NiTtM25s3rU.jpg)
+
+    - Удаляем студента
+
+    ![2](https://sun9-16.userapi.com/c857636/v857636935/1d1691/H6_t69ueA5Q.jpg)
+
+    - Добавление и удаление занятий
+
+    ![да](https://sun9-32.userapi.com/c857636/v857636935/1d16c1/qRSacMcTw-4.jpg)
+    ![да](https://sun9-60.userapi.com/c857636/v857636935/1d16c9/QBlnp8hFb3c.jpg)
+
