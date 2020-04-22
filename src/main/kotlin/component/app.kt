@@ -2,10 +2,12 @@ package component
 
 import data.*
 import hoc.withDisplayName
+import org.w3c.dom.HTMLInputElement
 import org.w3c.dom.events.Event
 import react.*
 import react.dom.*
 import react.router.dom.*
+import kotlin.browser.document
 import kotlin.reflect.KClass
 
 interface AppProps : RProps {}
@@ -123,17 +125,21 @@ class App : RComponent<AppProps, AppState>() {
             }
         }
 
-    fun addLesson():(String) -> Unit = { str->
+    fun addLesson():(Event) -> Unit = {
+        val nameObj = document.getElementById("Lessons") as HTMLInputElement
         setState {
-            lessons += Lesson(str)
+            lessons += Lesson(nameObj.value)
             presents += arrayOf(Array(state.students.size){false})
         }
     }
 
-    fun deleteLesson() :(Int) -> Unit = {
-        val editedPresents = state.presents.toMutableList().apply { removeAt(it-1) }
+    fun deleteLesson() :(Event) -> Unit = {
+        val nameObj = document.getElementById("DeleteLessons") as HTMLInputElement
+        val editedLessons = state.lessons.toMutableList().apply {
+            removeAt(nameObj.value.toInt()-1) }
             .toTypedArray()
-        val editedLessons = state.lessons.toMutableList().apply { removeAt(it-1) }
+        val editedPresents = state.presents.toMutableList().apply {
+            removeAt(nameObj.value.toInt()-1) }
             .toTypedArray()
         setState{
             lessons = editedLessons
@@ -141,22 +147,26 @@ class App : RComponent<AppProps, AppState>() {
         }
     }
 
-    fun addStudent():(String) -> Unit = { str->
-        val newStr = str.split(" ")
+    fun addStudent():(Event) -> Unit = {
+        val nameObj = document.getElementById("Students") as HTMLInputElement
+        val newStr = nameObj.value.split(" ")
         setState {
             students += Student(newStr[0],newStr[1])
             presents += arrayOf(Array(state.students.size){false})
         }
     }
 
-    fun deleteStudent() :(Int) -> Unit = {
-        val editedStudents = state.students.toMutableList().apply { removeAt(it-1) }
+    fun deleteStudent() :(Event) -> Unit = {
+        val nameObj = document.getElementById("DeleteStudents") as HTMLInputElement
+        val editedStudents = state.students.toMutableList().apply {
+            removeAt(nameObj.value.toInt()-1) }
             .toTypedArray()
-        val editedPresents = state.presents.toMutableList().apply { removeAt(it-1) }
+        val editedPresents = state.presents.toMutableList().apply {
+            removeAt(nameObj.value.toInt()-1) }
             .toTypedArray()
         setState{
             students = editedStudents
-            presents=editedPresents
+            presents= editedPresents
         }
     }
 }
