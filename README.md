@@ -9,3 +9,4 @@
 - [lab5](https://github.com/almat3010/labs/tree/lab5)
 - [lab6](https://github.com/almat3010/labs/tree/lab6)
 - [lab7](https://github.com/almat3010/labs/tree/lab7)
+- [lab8](https://github.com/almat3010/labs/tree/lab8)
