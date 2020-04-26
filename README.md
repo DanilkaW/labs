@@ -1,12 +1,14 @@
-# Labs_OOP
+lab_9 Redux
 
-## My work for the university is stored here.
+### Задание : используя код приложения из лекций переделайте приложения из последнего задания предыдущего модуля с использованием redux.
 
-- [lab1](https://github.com/almat3010/labs/tree/lab1)
-- [lab2](https://github.com/almat3010/labs/tree/lab2)
-- [lab3](https://github.com/almat3010/labs/tree/lab3)
-- [lab4](https://github.com/almat3010/labs/tree/lab4)
-- [lab5](https://github.com/almat3010/labs/tree/lab5)
-- [lab6](https://github.com/almat3010/labs/tree/lab6)
-- [lab7](https://github.com/almat3010/labs/tree/lab7)
-- [lab8](https://github.com/almat3010/labs/tree/lab8)
+
+## Ход работы 
+
+1. Переделал предыдущую версию приложения с помощью redux.
+   ![kek](https://sun9-60.userapi.com/c855628/v855628864/2333ec/bKMfHoLaJFc.jpg)
+   ![kek](https://sun9-18.userapi.com/c855628/v855628864/2333f5/LKbyf-u1u_g.jpg)
+
+2. Работоспособность программы представлена на следующих скриншотах.
+    ![ke1k](https://sun9-6.userapi.com/c855628/v855628864/2333db/NRLs1Sotirc.jpg)
+    ![ke1k](https://sun9-21.userapi.com/c855628/v855628864/2333e3/7KVpT4fdaFg.jpg)
